@@ -62,6 +62,7 @@ A collection of datasets for Data Visualization, Data Analysis, and Machine Lear
 ### Tabular Data
    1. [**Iris**](./data/tabular-data/iris/)
    1. [**Titanic**](./data/tabular-data/titanic/)
+   1. [**Breast Cancer Wisconsin (Diagnostic)**](./data/tabular-data/breast-cancer-wisconsin-diagnostic/)
 
 ### Time Series
    1. [**dataset_name**](./data/time-series/dataset_name/)
