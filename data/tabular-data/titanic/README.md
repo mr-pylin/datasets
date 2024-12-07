@@ -3,6 +3,8 @@
    - **Number of Instances:** 891 in the training set, 418 in the test set.
    - **Data Split:** Pre-split into `train.csv` and `test.csv`.
    - **Missing Values** are considered as `NaN` in the dataset.
+   - **Creator**:
+      - [Will Cukierski](https://scholar.google.com/citations?user=btZpioYAAAAJ&hl=en)
 
 <table style="margin: 0 auto;">
    <thead>
