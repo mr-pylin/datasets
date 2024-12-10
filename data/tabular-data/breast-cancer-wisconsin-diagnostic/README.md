@@ -1,6 +1,8 @@
 # 🗃️ Breast Cancer Wisconsin (Diagnostic) Dataset
    - Diagnostic Wisconsin Breast Cancer Database.
    - **Number of Instances:** 569
+   - **Reference Paper**:
+      - [**Breast Cancer Diagnosis and Prognosis via Linear Programming**](https://minds.wisconsin.edu/handle/1793/64370) by [*William Wolberg*](https://scholar.google.com/citations?user=R-kw9JYAAAAJ&hl=en) et al. in 1994.  
    - **Creators**:
       - [William Wolberg](https://scholar.google.com/citations?user=R-kw9JYAAAAJ&hl=en)
       - [Olvi Mangasarian](https://scholar.google.com/citations?user=OkJ1G8YAAAAJ&hl=en)
