@@ -6,6 +6,7 @@
    - **Creator**:
       - [Will Cukierski](https://scholar.google.com/citations?user=btZpioYAAAAJ&hl=en)
 
+## 🔍 More Details
 <table style="margin: 0 auto;">
    <thead>
       <tr>
@@ -146,7 +147,7 @@
    </tbody>
 </table>
 
-## 🔍 Categorical Attributes
+### 🔍 Categorical Attributes
 <table style="margin: 0 auto;">
    <thead>
       <tr>
@@ -273,4 +274,4 @@ This dataset does not appear to have a specific license or formal usage agreemen
 Users are encouraged to verify usage terms if needed.
 
 # ©️ Credit
-Visit [kaggle.com/competitions/titanic](https://www.kaggle.com/competitions/titanic) for more information.
+Visit [**Kaggle**](https://www.kaggle.com/competitions/titanic) for more information.

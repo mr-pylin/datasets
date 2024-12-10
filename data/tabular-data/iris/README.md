@@ -6,7 +6,7 @@
    - **Creator**:
       - [R. A. Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher)
 
-# 🔍 More Details
+## 🔍 More Details
 <table style="margin: 0 auto;">
    <thead>
       <tr>
@@ -68,7 +68,7 @@
    </tbody>
 </table>
 
-## 🔍 Categorical Attributes
+### 🔍 Categorical Attributes
 <table style="margin: 0 auto;">
    <thead>
       <tr>
@@ -157,4 +157,4 @@ This dataset is licensed under the [**Creative Commons Attribution 4.0 Internati
 **TL;DR:** You are free to share and adapt this dataset for any purpose, as long as appropriate credit is given to the original source.
 
 # ©️ Credit
-Visit [archive.ics.uci.edu/dataset/53/iris](https://archive.ics.uci.edu/dataset/53/iris) for more information.
+Visit [**UC Irvine Machine Learning Repository**](https://archive.ics.uci.edu/dataset/53/iris) for more information.
