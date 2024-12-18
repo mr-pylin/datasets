@@ -1,176 +1,180 @@
 # 🗃️ Boston Housing Dataset
-   - A classic dataset widely used for evaluating regression algorithms and statistical methodologies.  
-   - **Number of Instances:** 506
-   - **Reference Paper**:
-      - [**Hedonic housing prices and the demand for clean air**](https://www.sciencedirect.com/science/article/abs/pii/0095069678900062) by [*David Harrison Jr.*](https://www.scopus.com/authid/detail.uri?authorId=57214410562) and [*Daniel L Rubinfeld*](https://www.scopus.com/authid/detail.uri?authorId=6603666462) in 1978.
-   - **Creators**:
-      - [David Harrison Jr.](https://www.scopus.com/authid/detail.uri?authorId=57214410562)
-      - [Daniel L Rubinfeld](https://www.scopus.com/authid/detail.uri?authorId=6603666462)
+
+- A classic dataset widely used for evaluating regression algorithms and statistical methodologies.  
+- **Number of Instances:** 506
+- **Reference Paper**:
+  - [**Hedonic housing prices and the demand for clean air**](https://www.sciencedirect.com/science/article/abs/pii/0095069678900062) by [*David Harrison Jr.*](https://www.scopus.com/authid/detail.uri?authorId=57214410562) and [*Daniel L Rubinfeld*](https://www.scopus.com/authid/detail.uri?authorId=6603666462) in 1978.
+- **Creators**:
+  - [David Harrison Jr.](https://www.scopus.com/authid/detail.uri?authorId=57214410562)
+  - [Daniel L Rubinfeld](https://www.scopus.com/authid/detail.uri?authorId=6603666462)
 
 ## 🔍 More Details
+
 <table style="margin: 0 auto;">
-   <thead>
-      <tr>
-         <th style="text-align: center;">#</th>
-         <th style="text-align: center;">Attribute Name</th>
-         <th style="text-align: center;">Role</th>
-         <th style="text-align: center;">Type</th>
-         <th style="text-align: center;">Units</th>
-         <th style="text-align: center;">Missing Values</th>
-         <th style="text-align: center;">Description</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>0</td>
-         <td>CRIM</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>per capita</td>
-         <td>false</td>
-         <td>Per capita crime rate by town</td>
-      </tr>
-      <tr>
-         <td>1</td>
-         <td>ZN</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>percent</td>
-         <td>false</td>
-         <td>Proportion of residential land zoned for lots over 25,000 sq.ft.</td>
-      </tr>
-      <tr>
-         <td>2</td>
-         <td>INDUS</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>percent</td>
-         <td>false</td>
-         <td>Proportion of non-retail business acres per town</td>
-      </tr>
-      <tr>
-         <td>3</td>
-         <td>CHAS</td>
-         <td>Feature</td>
-         <td>Categorical</td>
-         <td>N/A</td>
-         <td>false</td>
-         <td>Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)</td>
-      </tr>
-      <tr>
-         <td>4</td>
-         <td>NOX</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>parts per 10 million</td>
-         <td>false</td>
-         <td>Nitric oxides concentration (parts per 10 million)</td>
-      </tr>
-      <tr>
-         <td>5</td>
-         <td>RM</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>units</td>
-         <td>false</td>
-         <td>Average number of rooms per dwelling</td>
-      </tr>
-      <tr>
-         <td>6</td>
-         <td>AGE</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>percent</td>
-         <td>false</td>
-         <td>Proportion of owner-occupied units built prior to 1940</td>
-      </tr>
-      <tr>
-         <td>7</td>
-         <td>DIS</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>index</td>
-         <td>false</td>
-         <td>Weighted distances to five Boston employment centers</td>
-      </tr>
-      <tr>
-         <td>8</td>
-         <td>RAD</td>
-         <td>Feature</td>
-         <td>Categorical</td>
-         <td>index</td>
-         <td>false</td>
-         <td>Index of accessibility to radial highways</td>
-      </tr>
-      <tr>
-         <td>9</td>
-         <td>TAX</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>rate per $10,000</td>
-         <td>false</td>
-         <td>Full-value property-tax rate per $10,000</td>
-      </tr>
-      <tr>
-         <td>10</td>
-         <td>PTRATIO</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>ratio</td>
-         <td>false</td>
-         <td>Pupil-teacher ratio by town</td>
-      </tr>
-      <tr>
-         <td>11</td>
-         <td>B</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>N/A</td>
-         <td>false</td>
-         <td>1000(Bk - 0.63)^2 where Bk is the proportion of Black residents by town</td>
-      </tr>
-      <tr>
-         <td>12</td>
-         <td>LSTAT</td>
-         <td>Feature</td>
-         <td>Numerical</td>
-         <td>percent</td>
-         <td>false</td>
-         <td>% lower status of the population</td>
-      </tr>
-      <tr>
-         <td>13</td>
-         <td>MEDV</td>
-         <td><strong>Target</strong></td>
-         <td>Numerical</td>
-         <td>$1000s</td>
-         <td>false</td>
-         <td>Median value of owner-occupied homes in $1000's</td>
-      </tr>
-   </tbody>
+  <thead>
+    <tr>
+      <th style="text-align: center;">#</th>
+      <th style="text-align: center;">Attribute Name</th>
+      <th style="text-align: center;">Role</th>
+      <th style="text-align: center;">Type</th>
+      <th style="text-align: center;">Units</th>
+      <th style="text-align: center;">Missing Values</th>
+      <th style="text-align: center;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>CRIM</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>per capita</td>
+      <td>false</td>
+      <td>Per capita crime rate by town</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>ZN</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>percent</td>
+      <td>false</td>
+      <td>Proportion of residential land zoned for lots over 25,000 sq.ft.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>INDUS</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>percent</td>
+      <td>false</td>
+      <td>Proportion of non-retail business acres per town</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>CHAS</td>
+      <td>Feature</td>
+      <td>Categorical</td>
+      <td>N/A</td>
+      <td>false</td>
+      <td>Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>NOX</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>parts per 10 million</td>
+      <td>false</td>
+      <td>Nitric oxides concentration (parts per 10 million)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>RM</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>units</td>
+      <td>false</td>
+      <td>Average number of rooms per dwelling</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>AGE</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>percent</td>
+      <td>false</td>
+      <td>Proportion of owner-occupied units built prior to 1940</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DIS</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>index</td>
+      <td>false</td>
+      <td>Weighted distances to five Boston employment centers</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>RAD</td>
+      <td>Feature</td>
+      <td>Categorical</td>
+      <td>index</td>
+      <td>false</td>
+      <td>Index of accessibility to radial highways</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>TAX</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>rate per $10,000</td>
+      <td>false</td>
+      <td>Full-value property-tax rate per $10,000</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>PTRATIO</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>ratio</td>
+      <td>false</td>
+      <td>Pupil-teacher ratio by town</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>B</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>N/A</td>
+      <td>false</td>
+      <td>1000(Bk - 0.63)^2 where Bk is the proportion of Black residents by town</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>LSTAT</td>
+      <td>Feature</td>
+      <td>Numerical</td>
+      <td>percent</td>
+      <td>false</td>
+      <td>% lower status of the population</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>MEDV</td>
+      <td><strong>Target</strong></td>
+      <td>Numerical</td>
+      <td>$1000s</td>
+      <td>false</td>
+      <td>Median value of owner-occupied homes in $1000's</td>
+    </tr>
+  </tbody>
 </table>
 
 ### 🔍 Categorical Attributes
+
 <table style="margin: 0 auto;">
-   <thead>
-      <tr>
-         <th style="text-align: center;">#</th>
-         <th style="text-align: center;">Attribute Name</th>
-         <th style="text-align: center;"># Categories</th>
-         <th style="text-align: center;">Categories Name</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>3</td>
-         <td>CHAS</td>
-         <td>2</td>
-         <td>0 (does not bound river), 1 (bounds river)</td>
-      </tr>
-   </tbody>
+  <thead>
+    <tr>
+      <th style="text-align: center;">#</th>
+      <th style="text-align: center;">Attribute Name</th>
+      <th style="text-align: center;"># Categories</th>
+      <th style="text-align: center;">Categories Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td>CHAS</td>
+      <td>2</td>
+      <td>0 (does not bound river), 1 (bounds river)</td>
+    </tr>
+  </tbody>
 </table>
 
 ## 🔍 Some Samples
+
 <table style="margin: 0 auto;">
   <thead>
     <tr>
@@ -274,9 +278,11 @@
   </tbody>
 </table>
 
-# 📄 License
+## 📄 License
+
 This dataset does not appear to have a specific license or formal usage agreement provided by its creators or maintainers.  
 Users are encouraged to verify usage terms if needed.
 
-# ©️ Credit
+## ©️ Credit
+
 Visit [**Data for Evaluating Learning in Valid Experiments (DELV) Archive**](https://www.cs.toronto.edu/~delve/data/boston/) for more information.
