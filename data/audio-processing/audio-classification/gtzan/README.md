@@ -22,7 +22,7 @@
 
 The audio tracks are named with a convention based on their genre and an ID number. The files are arranged sequentially by genre, as follows:
 
-<table style="margin:0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th rowspan="2">File Naming Sequence</th>

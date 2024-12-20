@@ -9,7 +9,7 @@
 
 ## 🔍 More Details
 
-<table style="margin: 0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th style="text-align: center;">#</th>
@@ -72,7 +72,7 @@
 
 ### 🔍 Categorical Attributes
 
-<table style="margin: 0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th style="text-align: center;">#</th>
@@ -93,7 +93,7 @@
 
 ## 🔍 Some Samples
 
-<table style="margin: 0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th style="text-align: center;"># Sample</th>

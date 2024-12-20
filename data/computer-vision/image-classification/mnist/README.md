@@ -20,7 +20,7 @@
 
 ### 🆔 Dataset Distribution
 
-<table style="margin:0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th>Dataset</th>
@@ -34,6 +34,7 @@
       <th>Class 7</th>
       <th>Class 8</th>
       <th>Class 9</th>
+      <th>Total</th>
     </tr>
   </thead>
   <tbody>
@@ -49,6 +50,7 @@
       <td>6265</td>
       <td>5851</td>
       <td>5949</td>
+      <td><strong>60,000</strong></td>
     </tr>
     <tr>
       <td style="text-align: center;"><strong>Test Set</strong></td>
@@ -62,6 +64,21 @@
       <td>1028</td>
       <td>974</td>
       <td>1009</td>
+      <td><strong>10,000</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Total</strong></td>
+      <td>6903</td>
+      <td>7877</td>
+      <td>6990</td>
+      <td>7141</td>
+      <td>6824</td>
+      <td>6313</td>
+      <td>6876</td>
+      <td>7293</td>
+      <td>6825</td>
+      <td>6958</td>
+      <td><strong>70,000</strong></td>
     </tr>
   </tbody>
 </table>
@@ -81,6 +98,21 @@ The MNIST dataset is widely used for:
   - Original site: [**yann.lecun.com/exdb/mnist**](https://yann.lecun.com/exdb/mnist/)
   - Alternatively, it can be accessed through [**kaggle.com/datasets/hojjatk/mnist-dataset/code**](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/code)
   - This dataset is also available via popular libraries like **TensorFlow** and **PyTorch** with built-in loaders.
+    - **TensorFlow**:
+
+      ```python
+      from tensorflow.keras.datasets import mnist
+      (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+      ```
+
+    - **PyTorch**:
+
+      ```python
+      from torchvision.datasets import MNIST
+      train_dataset = MNIST(root="./data", train=True, download=True)
+      test_dataset = MNIST(root="./data", train=False, download=True)
+      ```
+
 - ⚠️ **Known Issues**:
   - The images are noisy due to the handwriting variations, which may affect model accuracy.
 - ✍️ **Notes**:

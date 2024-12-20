@@ -9,7 +9,7 @@
 
 ## 🔍 More Details
 
-<table style="margin: 0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th rowspan="2" style="text-align: center;">#</th>
@@ -151,7 +151,7 @@
 
 ### 🔍 Categorical Attributes
 
-<table style="margin: 0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th style="text-align: center;">#</th>
@@ -191,7 +191,7 @@
 ## 🔍 Some Samples
 
 These samples are chosen from the [**train.csv**](./train.csv) file to give an overview of the dataset's structure and values.
-<table style="margin: 0 auto;">
+<table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
       <th style="text-align: center;"># Sample</th>
