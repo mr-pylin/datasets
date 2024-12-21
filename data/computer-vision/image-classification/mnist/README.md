@@ -16,25 +16,25 @@
 - **Test Set Size**: 10,000 images
 - **Image Size**: 28x28 pixels
 - **Image Format**: Grayscale (single channel)
-- **Pixel Values**: Integer values between 0 and 255
+- **Pixel Values**: Integer values between 0 and 255 (`uint8`)
 
 ### 🆔 Dataset Distribution
 
 <table style="margin:0 auto; border: 1px solid;">
   <thead>
     <tr>
-      <th>Dataset</th>
-      <th>Class 0</th>
-      <th>Class 1</th>
-      <th>Class 2</th>
-      <th>Class 3</th>
-      <th>Class 4</th>
-      <th>Class 5</th>
-      <th>Class 6</th>
-      <th>Class 7</th>
-      <th>Class 8</th>
-      <th>Class 9</th>
-      <th>Total</th>
+      <th style="text-align: center;">Dataset</th>
+      <th style="text-align: center;">Digit 0</th>
+      <th style="text-align: center;">Digit 1</th>
+      <th style="text-align: center;">Digit 2</th>
+      <th style="text-align: center;">Digit 3</th>
+      <th style="text-align: center;">Digit 4</th>
+      <th style="text-align: center;">Digit 5</th>
+      <th style="text-align: center;">Digit 6</th>
+      <th style="text-align: center;">Digit 7</th>
+      <th style="text-align: center;">Digit 8</th>
+      <th style="text-align: center;">Digit 9</th>
+      <th style="text-align: center;">Total</th>
     </tr>
   </thead>
   <tbody>
@@ -68,28 +68,20 @@
     </tr>
     <tr>
       <td style="text-align: center;"><strong>Total</strong></td>
-      <td>6903</td>
-      <td>7877</td>
-      <td>6990</td>
-      <td>7141</td>
-      <td>6824</td>
-      <td>6313</td>
-      <td>6876</td>
-      <td>7293</td>
-      <td>6825</td>
-      <td>6958</td>
+      <td><strong>6903</strong></td>
+      <td><strong>7877</strong></td>
+      <td><strong>6990</strong></td>
+      <td><strong>7141</strong></td>
+      <td><strong>6824</strong></td>
+      <td><strong>6313</strong></td>
+      <td><strong>6876</strong></td>
+      <td><strong>7293</strong></td>
+      <td><strong>6825</strong></td>
+      <td><strong>6958</strong></td>
       <td><strong>70,000</strong></td>
     </tr>
   </tbody>
 </table>
-
-### 📊 Dataset Usage
-
-The MNIST dataset is widely used for:
-
-- **Handwritten Digit Classification**: Identifying digits in images using machine learning models.
-- **Feature Extraction**: Extracting features from images to evaluate classifiers.
-- **Model Evaluation**: Comparing the performance of various machine learning models for digit recognition.
 
 ## 📥 Access the Dataset
 
@@ -119,7 +111,7 @@ The MNIST dataset is widely used for:
   - The dataset is preprocessed and available in different formats (raw images, CSV, etc.).
   - Images are center-cropped to remove unnecessary padding.
 
-### 📄 Contents within the Dataset
+### 📄 Contents within the Dataset [Binary Files]
 
 - **train-images.idx3-ubyte**
   - Binary file containing the training image data (60,000 images).
