@@ -91,7 +91,7 @@ The GTZAN dataset is often used in machine learning and deep learning projects f
   - If the equality of audio lengths is important to you, **not** all the audio files have the **exact** same length.
   - **Most** of the audio files e.g., `blues.00000.wav`, have a length of 30.01 seconds (which can be considered a **"valid length"**).
   - **Some** of the audio files e.g., `classical.00042.wav`, are **longer** than usual (and needs to be **clipped**).
-  - **Some** of the audio files e.g., `classical.00051.wav`, are **shorted** than usual (and needs to be **padded**).
+  - **Some** of the audio files e.g., `classical.00051.wav`, are **shorter** than usual (and needs to be **padded**).
 
 ### 📄 Contents within the Dataset
 
