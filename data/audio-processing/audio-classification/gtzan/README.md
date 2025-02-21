@@ -85,8 +85,13 @@ The GTZAN dataset is often used in machine learning and deep learning projects f
 - You can download the dataset from the following link:
   - [**kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification**](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 - ⚠️ **Known Issues**:
-  - `jazz.00054.wav` is **corrupted**, make sure to **delete**/**replace**/**skip** this audio when loading the dataset from above link.
-  - You can replace the corrupted audio with [**this**](https://drive.google.com/file/d/1ReErUq7w1T_FOkJqBsjFhOlpbw1ukiG8/view?usp=sharing) one (thanks to [*Rémi Mignot*](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/discussion/158649#1860479) 👏).
+  - `jazz.00054.wav` is **corrupted**, make sure to **skip** or **replace** it with [**this**](https://drive.google.com/file/d/1ReErUq7w1T_FOkJqBsjFhOlpbw1ukiG8/view?usp=sharing) one (thanks to [*Rémi Mignot*](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification/discussion/158649#1860479) 👏) when loading the dataset from above link.
+  - The labels don’t seem to be **100%** correct which makes the 100%-accuracy models **questionable** [[link](https://music-classification.github.io/tutorial/part2_basics/dataset.html#gtzan-music-genre-2002)].
+  - There are heavy artist **repetition**, which are very often **ignored** during dataset split [[link](https://music-classification.github.io/tutorial/part2_basics/dataset.html#gtzan-music-genre-2002)].
+- 📂 **Dataset Splits**
+  - this repository includes **predefined dataset splits** inside the [splits/](./splits/) folder adapted from [this repository](https://github.com/coreyker/dnn-mgr/tree/master/gtzan).
+  - **Filtered Split** removes known duplicates, mislabeled tracks, and corrupted files to prevent data leakage and improve evaluation reliability.
+  - **Stratified Split** Ensures genre balance while keeping the dataset structure similar to the original. Faulty samples are still present.
 - ✍️ **Notes**:
   - If the equality of audio lengths is important to you, **not** all the audio files have the **exact** same length.
   - **Most** of the audio files e.g., `blues.00000.wav`, have a length of 30.01 seconds (which can be considered a **"valid length"**).
