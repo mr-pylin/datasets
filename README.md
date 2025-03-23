@@ -4,78 +4,53 @@ A collection of datasets for Data Visualization, Data Analysis, and Machine Lear
 
 ## 📖 Table of Contents
 
-### Anomaly Detection
-
-   1. [**dataset_name**](./data/anomaly-detection/dataset_name/)
-
-### Audio Processing
-
-- **Audio Classification**
-  1. [**Gtzan Music Genre**](./data/audio-processing/audio-classification/gtzan/)
-
-- **Music Identification**
-  1. [**dataset_name**](./data/audio-processing/music-identification/dataset_name/)
-
-- **Speech Recognition**
-  1. [**dataset_name**](./data/audio-processing/speech-recognition/dataset_name/)
-
-### Computer Vision
-
-- **Face Recognition**
-  1. [**dataset_name**](./data/computer-vision/face-recognition/dataset_name/)
-
-- **Image Classification**
-  1. [**dataset_name**](./data/computer-vision/image-classification/dataset_name/)
-
-- **Image Clustering**
-  1. [**dataset_name**](./data/computer-vision/image-clustering/dataset_name/)
-
-- **Image Generation**
-  1. [**dataset_name**](./data/computer-vision/image-generation/dataset_name/)
-
-- **Image Segmentation**
-  1. [**dataset_name**](./data/computer-vision/image-segmentation/dataset_name/)
-
-- **Object Detection**
-  1. [**dataset_name**](./data/computer-vision/object-detection/dataset_name/)
-
-- **Optical Character Recognition**
-  1. [**dataset_name**](./data/computer-vision/optical-character-recognition/dataset_name/)
-
-### Graph Data
-
-   1. [**dataset_name**](./data/graph-data/dataset_name/)
-
-### Natural Language Processing
-
-- **Machine Translation**
-  1. [**dataset_name**](./data/natural-language-processing/machine-translation/dataset_name/)
-
-- **Sentiment Analysis**
-  1. [**dataset_name**](./data/natural-language-processing/sentiment-analysis/dataset_name/)
-
-- **Text Classification**
-  1. [**dataset_name**](./data/natural-language-processing/text-classification/dataset_name/)
-
-- **Text Clustering**
-  1. [**dataset_name**](./data/natural-language-processing/text-clustering/dataset_name/)
-
-- **Text Generation**
-  1. [**dataset_name**](./data/natural-language-processing/text-generation/dataset_name/)
-
-- **Text Summarization**
-  1. [**dataset_name**](./data/natural-language-processing/text-summarization/dataset_name/)
-
-### Tabular Data
-
-   1. [**Boston Housing**](./data/tabular-data/boston-housing/)
-   1. [**Breast Cancer Wisconsin (Diagnostic)**](./data/tabular-data/breast-cancer-wisconsin-diagnostic/)
-   1. [**Iris**](./data/tabular-data/iris/)
-   1. [**Titanic**](./data/tabular-data/titanic/)
-
-### Time Series
-
-   1. [**dataset_name**](./data/time-series/dataset_name/)
+- **Anomaly Detection**
+  1. [**dataset_name**](./data/anomaly-detection/dataset_name/)
+- **Audio Processing**
+  - **Audio Classification**
+    1. [**Gtzan Music Genre**](./data/audio-processing/audio-classification/gtzan/)
+  - **Music Identification**
+    1. [**dataset_name**](./data/audio-processing/music-identification/dataset_name/)
+  - **Speech Recognition**
+    1. [**dataset_name**](./data/audio-processing/speech-recognition/dataset_name/)
+- **Computer Vision**
+  - **Face Recognition**
+    1. [**dataset_name**](./data/computer-vision/face-recognition/dataset_name/)
+  - **Image Classification**
+    1. [**dataset_name**](./data/computer-vision/image-classification/dataset_name/)
+  - **Image Clustering**
+    1. [**dataset_name**](./data/computer-vision/image-clustering/dataset_name/)
+  - **Image Generation**
+    1. [**dataset_name**](./data/computer-vision/image-generation/dataset_name/)
+  - **Image Segmentation**
+    1. [**dataset_name**](./data/computer-vision/image-segmentation/dataset_name/)
+  - **Object Detection**
+    1. [**dataset_name**](./data/computer-vision/object-detection/dataset_name/)
+  - **Optical Character Recognition**
+    1. [**dataset_name**](./data/computer-vision/optical-character-recognition/dataset_name/)
+- **Graph Data**
+  1. [**dataset_name**](./data/graph-data/dataset_name/)
+- **Natural Language Processing**
+  - **Machine Translation**
+    1. [**dataset_name**](./data/natural-language-processing/machine-translation/dataset_name/)
+  - **Sentiment Analysis**
+    1. [**dataset_name**](./data/natural-language-processing/sentiment-analysis/dataset_name/)
+  - **Text Classification**
+    1. [**dataset_name**](./data/natural-language-processing/text-classification/dataset_name/)
+  - **Text Clustering**
+    1. [**dataset_name**](./data/natural-language-processing/text-clustering/dataset_name/)
+  - **Text Generation**
+    1. [**dataset_name**](./data/natural-language-processing/text-generation/dataset_name/)
+  - **Text Summarization**
+    1. [**dataset_name**](./data/natural-language-processing/text-summarization/dataset_name/)
+- **Tabular Data**
+  1. [**Boston Housing**](./data/tabular-data/boston-housing/)
+  1. [**Breast Cancer Wisconsin (Diagnostic)**](./data/tabular-data/breast-cancer-wisconsin-diagnostic/)
+  1. [**Car Evaluation**](./data/tabular-data/car-evaluation/)
+  1. [**Iris**](./data/tabular-data/iris/)
+  1. [**Titanic**](./data/tabular-data/titanic/)
+- **Time Series**
+  1. [**dataset_name**](./data/time-series/dataset_name/)
 
 ## 🔗 Useful Links
 
